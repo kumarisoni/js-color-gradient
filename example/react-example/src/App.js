@@ -1,8 +1,8 @@
 import React from "react";
 import {customColorMatrixOptions} from './config';
-import { getCustomGradientColorArray } from './CustomColorGradient';
-import{ data } from './SampleData';
-
+// import { getCustomGradientColorArray } from './CustomColorGradient';
+import { data } from './SampleData';
+import getCustomGradientColorArray from 'js-color-gradient';
 require('./_app.scss');
 
 const App = () => {
