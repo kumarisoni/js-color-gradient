@@ -28,7 +28,7 @@ function rgbToHex(r, g, b) {
     var bHex = b.toString(16).padStart(2, '0');
     return '#' + rHex + gHex + bHex;
 };
-export function getGradientColor(fromColor, toColor, gradientSteps) {
+export const getGradientColor = function(fromColor, toColor, gradientSteps) {
     let startColor = fromColor, endColor = toColor, steps = gradientSteps
     var gradientColors = getGradientColorArray(startColor, endColor, steps);
     return gradientColors;

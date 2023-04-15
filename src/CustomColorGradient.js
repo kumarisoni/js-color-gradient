@@ -1,6 +1,6 @@
-import {getGradientColor} from './util';
+import {getGradientColor} from './util.js';
 
-module.exports.getCustomGradientColorArray = function(options) {
+export const getCustomGradientColorArray = function(options) {
     let configArray = options;
     let startColor,endColor, range, steps;
     let colorMatrix = [];

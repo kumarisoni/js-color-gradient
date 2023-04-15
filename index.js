@@ -1,5 +1,5 @@
-// import getCustomGradientColorArray from './CustomColorGradient.js';
-let getCustomGradientColorArray = require('./src/CustomColorGradient');
-module.exports.getColors = function (options) {
+import {getCustomGradientColorArray} from './src/CustomColorGradient.js';
+
+export const getColors = function(options) {
     return getCustomGradientColorArray(options);
 }
