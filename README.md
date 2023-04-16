@@ -20,7 +20,7 @@ To use js-color-gradient, install it from yarn using the command:
 
 `yarn add js-color-gradient`
 
-(Demo link) [<a href="example/html-example/demo.html">here</a>]
+[Demo link](https://kumarisoni.github.io/js-color-gradient/)
 
 ### Usage
 To use this component, first import js-color-gradient:
@@ -167,7 +167,7 @@ If style is 'constant':
 
 You can provide as many range as you want and style also can be given same or different as per the requirement.
 
-You can take a look at the example given in (example folder)["example/]. To run the React Example use `npm i` then `npm start`
+You can take a look at the example given in [example folder](/example/). To run the React Example use `npm i` then `npm start`
 
 ### Contributing
 Fork this repo, add your proposed features and make a pull request. I will review as soon as possible.
