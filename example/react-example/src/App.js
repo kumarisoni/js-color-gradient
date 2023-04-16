@@ -1,11 +1,11 @@
 import React from "react";
-import {customColorMatrixOptions} from './config';
+import {customColorMatrixOptionsAllGradient, customColorMatrixOptionsOneConstant} from './config';
 import { data } from './SampleData';
 import {getColors} from 'js-color-gradient';
 require('./_app.scss');
 
 const App = () => {
-    let colorMartixAllGradient = getColors(customColorMatrixOptions);
+    let colorMartixAllGradient = getColors(customColorMatrixOptionsAllGradient);
     let colorMatrixOneConstant = getColors(customColorMatrixOptionsOneConstant);
     let tableData = data;
     return (
