@@ -1,4 +1,4 @@
-js-color-gradient
+# js-color-gradient
 
 js-color-gradient helps you give gradient colors for your web application.Like in table , list etc.
 It allows you to configure options like color, fromColor, toColor, style.
@@ -6,29 +6,31 @@ Currently it takes gradient steps based on the range provided.Like for range '0-
 
 To build the examples locally with npm, run:
 
-npm install
-npm start
+`npm install`
+`npm start`
 
-Then localhost:3000 should open in a browser. If not you can go to that directly.
+Then `localhost:3000` should open in a browser. If not you can go to that directly.
 
-Installation
+## Installation
 To use js-color-gardient, install it from NPM with npm using the command:
 
-npm install --save js-color-gradient
-To use js-color-gradient, install it from NPM with yarn using the command:
+`npm install --save js-color-gradient`
 
-yarn add js-color-gradient
+To use js-color-gradient, install it from yarn using the command:
 
-Demo link <a href="example/html-example/demo.html">here</a>
-Usage
+`yarn add js-color-gradient`
+
+(Demo link) [<a href="example/html-example/demo.html">here</a>]
+
+### Usage
 To use this component, first import js-color-gradient:
 
-import {getColors} from 'js-color-gradient';
+`import {getColors} from 'js-color-gradient';`
 and then provide it the options.
 
-Example:
+### ReactJS Example (Assuming Node and ReactJS app is already setup) :
 
-function App() {
+```function App() {
   let options = [{
     style: 'gradient',
     range: '0-20',
@@ -130,40 +132,45 @@ let tableData = data;
 }
 
 export default App;
+```
 
-Options:
+## Options:
 
-style: 'gradient'->If you want gradient for the given range, 'constant'->If you don't want
+- style: 'gradient'->If you want gradient for the given range, 'constant'->If you don't want
 gradient for the given range.
-range: range of the values .Ex '0-20','20-100' etc.
-color: if style is 'constant' the provide color.
-fromColor: if style is 'gradient' provide fromColor
-toColor: if style is 'gradient' provide toColor
+- range: range of the values .Ex '0-20','20-100' etc.
+- color: if style is 'constant' the provide color.
+- fromColor: if style is 'gradient' provide fromColor
+- toColor: if style is 'gradient' provide toColor
 
-Example:
+### Example for options:
 If style is 'gradient':
-options object should be in below format
+
+```options object should be in below format
 {
     style: 'gradient',
     range: '0-20',
     fromColor: '#8B0000',
     toColor: '#FFCCCB'
 }
+```
+
 If style is 'constant':
-options object should be in below format
+
+```options object should be in below format
 {
     style: 'constant',
     range: '0-20',
     color: '#8B0000'
 }
+```
 
 You can provide as many range as you want and style also can be given same or different as per the requirement.
 
-To serve the examples run start.
+You can take a look at the example given in (example folder)["example/]. To run the React Example use `npm i` then `npm start`
 
-
-Contributing
+### Contributing
 Fork this repo, add your proposed features and make a pull request. I will review as soon as possible.
 
-License
+### License
 This project is licensed under the terms of the MIT license. Check LICENSE.txt for more information.
