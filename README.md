@@ -120,7 +120,7 @@ let tableData = data;
                             <td>
                                 {data.count}
                             </td>
-                            <td style={{ backgroundColor: colorMartix[data.percentage]}}>
+                            <td style={{ backgroundColor: gradientColorForTable[data.percentage]}}>
                                 {data.percentage}
                             </td>
                         </tr>
