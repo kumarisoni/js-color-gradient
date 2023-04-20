@@ -7,6 +7,13 @@
   "directories": {
     "example": "example"
   },
+  "keywords": [ 
+    "javscript color gradient", 
+    "color gradient", 
+    "color-generator",
+    "color pallete",
+    "gradient-generator"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
