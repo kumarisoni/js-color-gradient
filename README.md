@@ -1,6 +1,6 @@
 # js-color-gradient
 
-js-color-gradient helps you give gradient colors for your web application.Like in table , list etc.
+js-color-gradient helps you get gradient colors for your web application.Like in table , list etc.It gives result in an array of colors.
 It allows you to configure options like color, fromColor, toColor, style.
 Currently it takes gradient steps based on the range provided.Like for range '0-20' gradient steps will be 20.
 
