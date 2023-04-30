@@ -174,3 +174,6 @@ Fork this repo, add your proposed features and make a pull request. I will revie
 
 ### License
 This project is licensed under the terms of the MIT license. Check LICENSE.txt for more information.
+
+### Keywords
+[Javascript color gradient](/(https://www.npmjs.com/search?q=js-color-gradient)/)
