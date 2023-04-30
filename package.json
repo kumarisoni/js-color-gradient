@@ -1,19 +1,13 @@
 {
   "name": "js-color-gradient",
   "type": "module",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "This project hepls to get color gradient code based on value.",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
-  "keywords": [ 
-    "javscript color gradient", 
-    "color gradient", 
-    "color-generator",
-    "color pallete",
-    "gradient-generator"
-  ],
+  "keywords": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/kumarisoni/js-color-gradient.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
